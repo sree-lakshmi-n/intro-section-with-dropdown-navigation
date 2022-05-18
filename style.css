@@ -3,3 +3,24 @@
   padding: 0;
   margin: 0;
 }
+li {
+  list-style-type: none;
+}
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em;
+}
+.top-nav-logo-menu {
+  display: flex;
+  width: 40%;
+}
+.logo {
+  margin-right: 3em;
+}
+.nav-menu {
+  display: flex;
+}
+.nav-menu:nth-child(n) {
+  gap: 3.125em;
+}
