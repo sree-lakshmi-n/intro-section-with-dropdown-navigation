@@ -71,3 +71,27 @@ li a:active {
 .nav-menu-dropdown:active::after {
   content: url("images/icon-arrow-up.svg");
 }
+
+/* Dropdown contents layout and positioning */
+.top-nav-logo-menu {
+  position: relative;
+}
+.nav-menu-dropdown-content {
+  position: absolute;
+  left: 20%;
+  background-color: #ffffff;
+  box-shadow: 8px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%;
+  border-radius: 1em;
+  padding: 1.2em;
+}
+.nav-menu-dropdown-content:nth-of-type(2) {
+  left: 45%;
+}
+.nav-menu-dropdown-content li {
+  margin-bottom: 1.2em;
+}
+.nav-menu-dropdown-content li:last-child {
+  margin-bottom: 0;
+}
