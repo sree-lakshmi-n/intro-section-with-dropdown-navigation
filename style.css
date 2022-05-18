@@ -118,3 +118,11 @@ li a:active {
 .nav-menu > div:active .nav-menu-dropdown-content {
   display: block;
 }
+
+/* Register and Log in buttons active state */
+.active {
+  border: 1px solid #000000;
+  color: #000000;
+  padding: 0.8em 1.8em;
+  border-radius: 1em;
+}
