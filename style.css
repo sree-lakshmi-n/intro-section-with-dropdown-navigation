@@ -14,15 +14,16 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5em;
+  padding: 1.5em 3em;
   color: #696969;
+  font-size: 0.9em;
 }
 .top-nav-logo-menu {
   display: flex;
   width: 40%;
 }
 .logo {
-  margin-right: 3em;
+  margin-right: 4em;
   align-self: center;
   padding-top: 0.4em;
 }
@@ -34,4 +35,10 @@ li {
 .nav-menu:nth-child(n),
 .nav-register:nth-child(n) {
   gap: 3.125em;
+  letter-spacing: -0.01em;
+}
+.nav-menu-dropdown::after {
+  content: url("images/icon-arrow-down.svg");
+  margin-left: 0.4em;
+  margin-bottom: 0.2em;
 }
