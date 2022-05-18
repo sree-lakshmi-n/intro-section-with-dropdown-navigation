@@ -126,3 +126,20 @@ li a:active {
   padding: 0.8em 1.8em;
   border-radius: 1em;
 }
+
+/* Top Banner layout */
+.top-banner {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 2em 10em;
+}
+.top-banner-content {
+  margin-right: 6em;
+}
+.top-banner-image {
+  margin-left: 6em;
+}
+.top-banner-image img {
+  max-width: 100%;
+}
