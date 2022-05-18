@@ -13,7 +13,9 @@ li {
 .top-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1.5em;
+  color: #696969;
 }
 .top-nav-logo-menu {
   display: flex;
@@ -21,10 +23,15 @@ li {
 }
 .logo {
   margin-right: 3em;
+  align-self: center;
+  padding-top: 0.4em;
 }
-.nav-menu {
+.nav-menu,
+.nav-register {
   display: flex;
+  align-items: center;
 }
-.nav-menu:nth-child(n) {
+.nav-menu:nth-child(n),
+.nav-register:nth-child(n) {
   gap: 3.125em;
 }
