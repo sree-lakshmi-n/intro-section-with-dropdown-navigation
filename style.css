@@ -73,18 +73,20 @@ li a:active {
 }
 
 /* Dropdown contents layout and positioning */
-.top-nav-logo-menu {
+.nav-menu-container {
   position: relative;
 }
 .nav-menu-dropdown-content {
   position: absolute;
-  left: 20%;
+  right: 5%;
   background-color: #ffffff;
   box-shadow: 8px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   top: 100%;
   border-radius: 1em;
-  padding: 1.2em;
+  padding: 1.5em 1.2em;
+  display: none;
+  min-width: max-content;
 }
 .nav-menu-dropdown-content:nth-of-type(2) {
   left: 45%;
@@ -94,4 +96,25 @@ li a:active {
 }
 .nav-menu-dropdown-content li:last-child {
   margin-bottom: 0;
+}
+.featues-dropdown-content-items:before {
+  content: "";
+  margin-right: 0.8em;
+}
+/* Feature dropdown icons */
+.todo:before {
+  content: url("images/icon-todo.svg");
+}
+.calendar:before {
+  content: url("images/icon-calendar.svg");
+}
+.reminder:before {
+  content: url("images/icon-reminders.svg");
+}
+.planning:before {
+  content: url("images/icon-planning.svg");
+}
+.nav-menu > div:hover .nav-menu-dropdown-content,
+.nav-menu > div:active .nav-menu-dropdown-content {
+  display: block;
 }
