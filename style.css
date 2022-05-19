@@ -128,11 +128,13 @@ li a:active {
 /* Top Banner layout */
 .top-banner {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   padding: 2em 10em;
 }
 .top-banner-content {
   margin-right: 6em;
+  justify-content: space-evenly;
+  padding-top: 2em;
 }
 .top-banner-image {
   margin-left: 6em;
@@ -150,7 +152,6 @@ li a:active {
 /* Top banner heading */
 .top-banner-heading {
   font-size: 4.35em;
-  margin-bottom: 0.8em;
 }
 
 /* Top banner writeup */
@@ -158,6 +159,7 @@ li a:active {
   font-size: 1em;
   color: #696969;
   padding-right: 3em;
+  line-height: 1.5;
 }
 
 /* Top banner button */
