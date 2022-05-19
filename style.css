@@ -149,7 +149,7 @@ li a:active {
 
 /* Top banner heading */
 .top-banner-heading {
-  font-size: 4.25em;
+  font-size: 4.35em;
 }
 
 /* Top banner writeup */
@@ -157,4 +157,16 @@ li a:active {
   font-size: 1em;
   color: #696969;
   padding-right: 3em;
+}
+
+/* Top banner button */
+.top-banner-btn {
+  align-self: flex-start;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1em 2em;
+  font-size: 1em;
+  border-radius: 1em;
+  font-weight: bold;
 }
