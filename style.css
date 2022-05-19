@@ -67,8 +67,6 @@ li a:active {
 }
 .nav-menu-dropdown:hover::after {
   filter: brightness(0%);
-}
-.nav-menu-dropdown:active::after {
   content: url("images/icon-arrow-up.svg");
 }
 
@@ -147,4 +145,9 @@ li a:active {
 .top-banner-content {
   display: flex;
   flex-direction: column;
+}
+
+/* Top banner heading */
+.top-banner-heading {
+  font-size: 4.25em;
 }
