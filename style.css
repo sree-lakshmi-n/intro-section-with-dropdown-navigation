@@ -130,7 +130,6 @@ li a:active {
 /* Top Banner layout */
 .top-banner {
   display: flex;
-  /* justify-content: space-around; */
   align-items: center;
   padding: 2em 10em;
 }
@@ -142,4 +141,10 @@ li a:active {
 }
 .top-banner-image img {
   max-width: 100%;
+}
+
+/* Top banner content layout */
+.top-banner-content {
+  display: flex;
+  flex-direction: column;
 }
