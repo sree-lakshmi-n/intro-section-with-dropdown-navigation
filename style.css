@@ -150,6 +150,7 @@ li a:active {
 /* Top banner heading */
 .top-banner-heading {
   font-size: 4.35em;
+  margin-bottom: 0.8em;
 }
 
 /* Top banner writeup */
@@ -169,4 +170,13 @@ li a:active {
   font-size: 1em;
   border-radius: 1em;
   font-weight: bold;
+}
+
+/* Top banner client logos */
+.top-banner-client-logos {
+  display: flex;
+  justify-content: space-between;
+}
+.top-banner-client-logos img {
+  align-self: center;
 }
