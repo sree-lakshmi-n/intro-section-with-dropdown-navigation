@@ -140,7 +140,7 @@ li a:active {
   margin-left: 6em;
 }
 .top-banner-image img {
-  max-width: 100%;
+  width: 100%;
 }
 
 /* Top banner content layout */
@@ -187,4 +187,18 @@ li a:active {
 .attribution {
   font-size: 0.6em;
   text-align: center;
+}
+
+/* Mobile design */
+@media only screen and (max-width: 400px) {
+  .nav-menu,
+  .nav-register,
+  .top-banner {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .top-banner-content,
+  .top-banner-image {
+    width: 100%;
+  }
 }
