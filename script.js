@@ -19,3 +19,13 @@ Array.from(dropdown).forEach((element) => {
     element.nextElementSibling.classList.toggle("hide");
   });
 });
+
+// Nav menu content display toggle
+const navContainer = document.getElementsByClassName("nav-menu-container")[0];
+const overlay = document.getElementsByClassName("overlay")[0];
+const hamclose = document.getElementsByClassName("ham-close")[0];
+const hamhide = () => {
+  navContainer.classList.toggle("hide");
+  overlay.classList.toggle("hide");
+};
+hamclose.addEventListener("click", hamhide);
