@@ -191,9 +191,6 @@ li a:active {
 
 /* Mobile design */
 @media only screen and (max-width: 400px) {
-  body {
-    background-color: #696969;
-  }
   .nav-menu,
   .nav-register,
   .top-banner {
@@ -220,6 +217,7 @@ li a:active {
     width: 65%;
     background-color: #ffffff;
     padding: 0 1.2em;
+    z-index: 2;
   }
   .ham-cross > img {
     float: right;
@@ -239,5 +237,15 @@ li a:active {
   }
   .hide {
     display: none;
+  }
+  /* Overlay Styling */
+  .overlay {
+    background-color: #696969a5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
   }
 }
