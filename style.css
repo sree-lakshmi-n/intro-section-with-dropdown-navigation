@@ -65,7 +65,8 @@ li a:active {
   margin-left: 0.4em;
   margin-bottom: 0.2em;
 }
-.nav-menu-dropdown:hover::after {
+.nav-menu-dropdown:hover::after,
+.nav-menu-dropdown:active::after {
   filter: brightness(0%);
   content: url("images/icon-arrow-up.svg");
 }
