@@ -191,6 +191,9 @@ li a:active {
 
 /* Mobile design */
 @media only screen and (max-width: 400px) {
+  .top-nav {
+    padding: 1.5em;
+  }
   .nav-menu,
   .nav-register,
   .top-banner {
@@ -219,7 +222,7 @@ li a:active {
     padding: 0 1.2em;
     z-index: 2;
   }
-  .ham-cross > img {
+  .ham-close > img {
     float: right;
     padding: 1.4em 0.2em;
   }
