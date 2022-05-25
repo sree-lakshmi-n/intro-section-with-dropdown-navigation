@@ -74,7 +74,7 @@ li a:active {
 .nav-menu-container {
   position: relative;
 }
-.nav-menu-dropdown-content {
+/* .nav-menu-dropdown-content {
   position: absolute;
   right: 5%;
   background-color: #ffffff;
@@ -85,7 +85,7 @@ li a:active {
   padding: 1.5em 1.2em;
   display: none;
   min-width: max-content;
-}
+} */
 .nav-menu-dropdown-content:nth-of-type(2) {
   left: 45%;
 }
@@ -128,7 +128,6 @@ li a:active {
 /* Top Banner layout */
 .top-banner {
   display: flex;
-  /* align-items: center; */
   padding: 2em 10em;
 }
 .top-banner-content {
@@ -191,14 +190,53 @@ li a:active {
 
 /* Mobile design */
 @media only screen and (max-width: 400px) {
+  body {
+    background-color: #696969;
+  }
   .nav-menu,
   .nav-register,
   .top-banner {
     flex-direction: column;
     justify-content: center;
   }
-  .top-banner-content,
+  .nav-menu {
+    align-items: flex-start;
+    margin-bottom: 1.5em;
+  }
+  .nav-menu:nth-child(n),
+  .nav-register:nth-child(n) {
+    gap: 1.5em;
+  }
+  /* .top-banner-content,
   .top-banner-image {
     width: 100%;
+  } */
+  .nav-menu-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 65%;
+    background-color: #ffffff;
+    padding: 0 1.2em;
+  }
+  .ham-cross > img {
+    float: right;
+    padding: 1.4em 0.2em;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .nav-menu-dropdown-content {
+    padding: 0 2em 0.5em;
+  }
+  .active {
+    width: 100%;
+    text-align: center;
+  }
+  .hide {
+    display: none;
   }
 }
