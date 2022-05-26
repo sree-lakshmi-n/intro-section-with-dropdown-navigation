@@ -30,7 +30,8 @@ Users should be able to:
 
 #### Desktop Version and Desktop Active State
 
-[Desktop Version](./screenshots/desktop.png)
+<img src="./screenshots/desktop.png" width=90%>
+<!-- [Desktop Version](./screenshots/desktop.png) -->
 
 ### Links
 
