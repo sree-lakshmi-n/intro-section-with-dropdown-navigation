@@ -34,23 +34,23 @@ Users should be able to:
 
 #### Desktop Active State
 
-<img src="./screenshots/desktop-active" width=100%>
+<img src="./screenshots/desktop-active.png" width=100%>
 
 #### Mobile Version
 
-<img src="./screenshots/mobile" width=100%>
+<img src="./screenshots/mobile.jpg" width=100%>
 
 #### Mobile Active State
 
-<img src="./screenshots/mobile-active" width=100%>
+<img src="./screenshots/mobile-active.jpg" width=100%>
 
 #### Mobile Menu Collapsed
 
-<img src="./screenshots/mobile-menu-collapsed" width=100%>
+<img src="./screenshots/mobile-menu-collapsed.jpg" width=100%>
 
 #### Mobile Menu Expanded
 
-<img src="./screenshots/mobile-expanded" width=100%>
+<img src="./screenshots/mobile-expanded.jpg" width=100%>
 
 ### Links
 
