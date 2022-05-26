@@ -36,21 +36,15 @@ Users should be able to:
 
 <img src="./screenshots/desktop-active.png" width=100%>
 
-#### Mobile Version
+#### Mobile Version and Active State
 
-<img src="./screenshots/mobile.jpg" width=100%>
+<img src="./screenshots/mobile.jpg" width=30%>
+<img src="./screenshots/mobile-active.jpg" width=30%>
 
-#### Mobile Active State
+#### Mobile Menu Collapsed and Expanded
 
-<img src="./screenshots/mobile-active.jpg" width=100%>
-
-#### Mobile Menu Collapsed
-
-<img src="./screenshots/mobile-menu-collapsed.jpg" width=100%>
-
-#### Mobile Menu Expanded
-
-<img src="./screenshots/mobile-expanded.jpg" width=100%>
+<img src="./screenshots/mobile-menu-collapsed.jpg" width=30%>
+<img src="./screenshots/mobile-expanded.jpg" width=30%>
 
 ### Links
 
