@@ -294,6 +294,11 @@ li a:active {
     z-index: 1;
   }
 }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 .hide {
   display: none;
 }
