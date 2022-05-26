@@ -135,42 +135,45 @@ li a:active {
 
 /* Top Banner layout */
 .top-banner {
-  display: flex;
   padding: 2em 10em;
 }
+.top-banner-image,
 .top-banner-content {
-  margin-right: 6em;
-  justify-content: space-evenly;
-  padding-top: 2em;
+  display: inline-block;
+}
+.top-banner-content {
+  width: 40%;
+  float: left;
 }
 .top-banner-image {
-  margin-left: 6em;
+  width: 40%;
+  float: right;
 }
 .top-banner-image img {
   width: 100%;
 }
 
 /* Top banner content layout */
-.top-banner-content {
+/* .top-banner-content {
   display: flex;
   flex-direction: column;
-}
+} */
 
 /* Top banner heading */
 .top-banner-heading {
-  font-size: 4.35em;
+  font-size: 4.2em;
 }
 
 /* Top banner writeup */
-.top-banner-writeup {
+/* .top-banner-writeup {
   font-size: 1em;
   color: #696969;
   padding-right: 3em;
   line-height: 1.5;
-}
+} */
 
 /* Top banner button */
-.top-banner-btn {
+/* .top-banner-btn {
   align-self: flex-start;
   border: none;
   background-color: #000000;
@@ -179,16 +182,16 @@ li a:active {
   font-size: 1em;
   border-radius: 1em;
   font-weight: bold;
-}
+} */
 
 /* Top banner client logos */
-.top-banner-client-logos {
+/* .top-banner-client-logos {
   display: flex;
   justify-content: space-between;
 }
 .top-banner-client-logos img {
   align-self: center;
-}
+} */
 
 /* Attribution styling */
 .attribution {
@@ -253,6 +256,28 @@ li a:active {
   }
   .nav-menu-dropdown-content:nth-of-type(2) {
     left: unset;
+  }
+
+  /* Top banner styling */
+  .top-banner {
+    padding: unset;
+  }
+  .top-banner-image {
+    width: 100%;
+    margin-left: unset;
+  }
+  .top-banner-image img {
+    content: url("./images/image-hero-mobile.png");
+    width: 100%;
+  }
+
+  .top-banner-content {
+    width: 100%;
+    text-align: center;
+  }
+  /* Top banner heading */
+  .top-banner-heading {
+    font-size: 2.2em;
   }
   .active {
     width: 100%;
