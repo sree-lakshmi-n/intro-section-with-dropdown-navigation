@@ -23,9 +23,25 @@ Array.from(dropdown).forEach((element) => {
 // Nav menu content display toggle
 const navContainer = document.getElementsByClassName("nav-menu-container")[0];
 const overlay = document.getElementsByClassName("overlay")[0];
-const hamclose = document.getElementsByClassName("ham-close")[0];
-const hamhide = () => {
+const hamburger = document.getElementsByClassName("hamburger")[0];
+const hamclose = document.getElementsByClassName("ham-close")[0].children[0];
+const hamtoggle = () => {
   navContainer.classList.toggle("hide");
   overlay.classList.toggle("hide");
 };
-hamclose.addEventListener("click", hamhide);
+hamburger.addEventListener("click", hamtoggle);
+hamclose.addEventListener("click", hamtoggle);
+
+// Check if user is on mobile
+// A media condition that targets viewports at most 820px wide
+let mediaQuery = window.matchMedia("(max-width: 820px)");
+
+const checkMediaQuery = (e) => {
+  // Check if the media query is true
+  if (e.matches) navContainer.classList.add("hide");
+  else navContainer.classList.remove("hide");
+};
+// To check for screen size for every screen size change
+mediaQuery.addEventListener("change", checkMediaQuery);
+// To check for screen size initially
+checkMediaQuery(mediaQuery);
