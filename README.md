@@ -39,14 +39,14 @@ Users should be able to:
 #### Mobile Version and Active State
 
 <p>
-  <img src="./screenshots/mobile.jpg" width=30% style="margin-right:1em  display:block;">
+  <img src="./screenshots/mobile.jpg" width=30%>&nbsp;&nbsp;
   <img src="./screenshots/mobile-active.jpg" width=30%>
 </p>
 
 #### Mobile Menu Collapsed and Expanded
 
 <p>
-  <img src="./screenshots/mobile-menu-collapsed.jpg" width=30% style="margin-right:1em; display:block;">
+  <img src="./screenshots/mobile-menu-collapsed.jpg" width=30%>&nbsp;&nbsp;
   <img src="./screenshots/mobile-menu-expanded.jpg" width=30%>
 </p>
 
