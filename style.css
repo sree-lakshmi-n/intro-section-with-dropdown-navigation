@@ -184,7 +184,11 @@ li:active {
   border-radius: 1em;
   font-weight: bold;
 }
-
+.top-banner-btn:hover {
+  border: 0.1em solid #000000;
+  background-color: transparent;
+  color: #000000;
+}
 /* Top banner client logos */
 .top-banner-client-logos {
   display: flex;
