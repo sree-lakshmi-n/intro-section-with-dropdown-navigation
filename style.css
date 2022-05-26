@@ -39,6 +39,7 @@ li {
 .nav-register {
   display: flex;
   align-items: center;
+  position: relative;
 }
 .nav-menu:nth-child(n),
 .nav-register:nth-child(n) {
@@ -74,27 +75,29 @@ li a:active {
 /* Dropdown contents layout and positioning */
 .nav-menu-container {
   position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-/* .nav-menu-dropdown-content {
+.nav-menu-dropdown-content {
   position: absolute;
-  right: 5%;
+  left: -15%;
   background-color: #ffffff;
   box-shadow: 8px 8px 16px 0px #00000033;
   z-index: 1;
   top: 100%;
   border-radius: 1em;
   padding: 1.5em 1.2em;
-  display: none;
   min-width: max-content;
-} */
-.nav-menu-dropdown-content:nth-of-type(2) {
-  left: 45%;
 }
 .nav-menu-dropdown-content li {
   margin-bottom: 1.2em;
 }
 .nav-menu-dropdown-content li:last-child {
   margin-bottom: 0;
+}
+.nav-menu-dropdown-content:nth-of-type(2) {
+  left: 25%;
 }
 .featues-dropdown-content-items:before {
   content: "";
@@ -124,6 +127,10 @@ li a:active {
   color: #000000;
   padding: 0.8em 1.8em;
   border-radius: 1em;
+}
+.hamburger,
+.ham-close {
+  display: none;
 }
 
 /* Top Banner layout */
@@ -208,11 +215,8 @@ li a:active {
   .nav-register:nth-child(n) {
     gap: 1.5em;
   }
-  /* .top-banner-content,
-  .top-banner-image {
-    width: 100%;
-  } */
   .nav-menu-container {
+    display: block;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -221,6 +225,13 @@ li a:active {
     background-color: #ffffff;
     padding: 0 1.2em;
     z-index: 2;
+  }
+  .hamburger {
+    display: block;
+    padding: 1em 0.2em;
+  }
+  .ham-close {
+    display: block;
   }
   .ham-close > img {
     float: right;
@@ -232,14 +243,20 @@ li a:active {
     display: table;
   }
   .nav-menu-dropdown-content {
+    position: relative;
     padding: 0 2em 0.5em;
+    background-color: inherit;
+    box-shadow: none;
+    border-radius: none;
+    left: 0;
+    right: 0;
+  }
+  .nav-menu-dropdown-content:nth-of-type(2) {
+    left: unset;
   }
   .active {
     width: 100%;
     text-align: center;
-  }
-  .hide {
-    display: none;
   }
   /* Overlay Styling */
   .overlay {
@@ -251,4 +268,7 @@ li a:active {
     left: 0;
     z-index: 1;
   }
+}
+.hide {
+  display: none;
 }
