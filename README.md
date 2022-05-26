@@ -28,15 +28,34 @@ Users should be able to:
 
 ### Screenshot
 
-#### Desktop Version and Desktop Active State
+#### Desktop Version
 
-<img src="./screenshots/desktop.png" width=90%>
-<!-- [Desktop Version](./screenshots/desktop.png) -->
+<img src="./screenshots/desktop.png" width=100%>
+
+#### Desktop Active State
+
+<img src="./screenshots/desktop-active" width=100%>
+
+#### Mobile Version
+
+<img src="./screenshots/mobile" width=100%>
+
+#### Mobile Active State
+
+<img src="./screenshots/mobile-active" width=100%>
+
+#### Mobile Menu Collapsed
+
+<img src="./screenshots/mobile-menu-collapsed" width=100%>
+
+#### Mobile Menu Expanded
+
+<img src="./screenshots/mobile-expanded" width=100%>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/sree-lakshmi-n/intro-section-with-dropdown-navigation)
+- [Live site URL](https://sree-lakshmi-n.github.io/intro-section-with-dropdown-navigation)
 
 ## My process
 
@@ -45,13 +64,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Vanilla JS
 
 ### What I learned
 
