@@ -56,7 +56,9 @@ li a:visited {
   color: inherit;
 }
 li a:hover,
-li a:active {
+li a:active,
+li:hover,
+li:active {
   color: #000000;
 }
 
