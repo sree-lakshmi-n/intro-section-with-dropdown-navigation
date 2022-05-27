@@ -56,9 +56,7 @@ li a:visited {
   color: inherit;
 }
 li a:hover,
-li a:active,
-li:hover,
-li:active {
+li a:active {
   color: #000000;
 }
 
@@ -70,7 +68,6 @@ li:active {
 }
 .nav-menu-dropdown:hover::after,
 .nav-menu-dropdown:active::after {
-  filter: brightness(0%);
   content: url("images/icon-arrow-up.svg");
 }
 
@@ -316,4 +313,8 @@ li:active {
 }
 .hide {
   display: none;
+}
+.black-colour {
+  filter: brightness(0%);
+  color: #000000;
 }
