@@ -16,6 +16,7 @@ Array.from(navRegItems).forEach((element) => {
 const dropdown = document.getElementsByClassName("nav-menu-dropdown");
 Array.from(dropdown).forEach((element) => {
   element.addEventListener("click", () => {
+    element.classList.toggle("black-colour");
     element.nextElementSibling.classList.toggle("hide");
   });
 });
